@@ -17,7 +17,7 @@ To run the algorithms in the paper, run this command:
 ```train
 python3 ./fed_main.py --epochs 1000 --freq_in 300 --freq_out 1 --num_users 90 --local_ep 300 --local_bs 2 --lr 0.01 --mu 1 --dataset femnist --VR False --model cnn --optimizer FedPD --gpu cuda:0
 ```
---optimizer can be sselected from FedPD, FedProx, sgd and adam
+-optimizer can be sselected from FedPD, FedProx, sgd and adam
 
 ## Results
 
