@@ -1,0 +1,1 @@
+python3 ./fed_main.py --epochs 1000 --freq_in 300 --freq_out 1 --num_users 90 --local_ep 300 --local_bs 2 --lr 0.01 --mu 1 --dataset femnist --VR False --model cnn --optimizer FedProx --gpu cuda:0
